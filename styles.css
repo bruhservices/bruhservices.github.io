@@ -1,0 +1,70 @@
+
+  body {
+	color: #fff;
+	background: #000
+  }
+
+
+
+  #yo-mama {
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("fire.gif") bottom center repeat-x;
+	text-shadow: -1px 1px 0 red,
+				  1px 1px 0 red,
+				 1px -1px 0 red;
+				-1px -1px 0 red;
+
+
+  }
+
+  a {
+   color: blue;
+   text-decoration: none;
+  }
+  a:hover {
+    color: red;
+	text-decoration: underline;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted white;
+    cursor: pointer;
+  }
+
+piece {
+
+}
+
+piece:hover {
+  color: rgb(0,0,0); !important;
+}
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 500px;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -50%;
+    margin-left: -10rem;
+  }
+
+  .tooltiptext {
+    color: black;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
